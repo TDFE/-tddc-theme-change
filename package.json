@@ -4,7 +4,7 @@
   "description": "动态修改主题",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel index.js -d lib",
+    "build": "babel src/index.js -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zyj",
@@ -14,7 +14,7 @@
     "css-vars-ponyfill": "^2.4.8",
     "tntd-theme-less": "^1.0.0"
   },
-  "files": ["lib"],
+  "files": ["lib", "src"],
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.6",
