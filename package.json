@@ -1,0 +1,16 @@
+{
+  "name": "@tddc/theme-change",
+  "version": "1.0.0",
+  "description": "动态修改主题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zyj",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/colors": "^7.0.0",
+    "css-vars-ponyfill": "^2.4.8",
+    "tntd-theme-less": "^1.0.0"
+  }
+}
